@@ -4,12 +4,18 @@
   list-style: none;
 }
 .background-all{
-  
+
 }
 .pagetop-through{
   /*首行贯通条底部样式*/
   background-color: grey;
-  height: 50px;
+  height: 100px;
+  line-height: 100px;
   width:100%;
+  border: 1px solid #fff;
+}
 
+.pagetop-through div{
+  float: left;
+  margin:0 10px;
 }
