@@ -1,0 +1,15 @@
+*{
+  font-size:14px;
+  line-height:20px;
+  list-style: none;
+}
+.background-all{
+  
+}
+.pagetop-through{
+  /*首行贯通条底部样式*/
+  background-color: grey;
+  height: 50px;
+  width:100%;
+
+}
