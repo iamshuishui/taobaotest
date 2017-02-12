@@ -3,19 +3,28 @@
   line-height:20px;
   list-style: none;
 }
-.background-all{
 
-}
 .pagetop-through{
   /*首行贯通条底部样式*/
   background-color: grey;
   height: 100px;
   line-height: 100px;
   width:100%;
-  border: 1px solid #fff;
+  border: 2px solid #f22;
 }
 
-.pagetop-through div{
-  float: left;
-  margin:0 10px;
+.pagetop-left{
+  float:left;
+}
+
+.pagetop-left div{
+  float:left;
+}
+
+.pagetop-right{
+  float:right;
+}
+
+.pagetop-right div{
+  float:left;
 }
