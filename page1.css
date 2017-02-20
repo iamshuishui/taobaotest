@@ -12,14 +12,14 @@ a{
 
 li{
   list-style-type: none;
-  line-height: 35px;
+  line-height: 34px;
 }
 
 .indexpage-menu{
   /*首行贯通条底部样式*/
   background-color:#f5f5f5;
-  height: 35px;
-  width:1296px;
+  height: 34px;
+  width:auto;
   border: 1px solid #eee;
   overflow: hidden;/*超出边界会隐藏不会导致自动换行*/
 }
@@ -30,23 +30,70 @@ a:hover{
 
 .indexpage-menu-left{
   float:left;
-  margin-left: 10px;
-  padding-left: 36px;
+  padding-left: 42px;
 }
 
 .indexpage-menu-left li{
   float:left;
+  padding-right: 7px;
+}
+.indexpage-login a{
+  color: #f3502a;
+}
+
+.indexpage-mobile{
+  padding-left: 12px;
 }
 
 .indexpage-menu-right{
   float:right;
-  margin-right:10px;
+  padding-right:36px;
 }
 
 .indexpage-menu-right li{
   float:left;
+  z-index: 3;
+  /*padding:0 8px 0 6px;*/
 }
 
-.indexpage-login a{
-  color:#f3502a;
+.image-left{/*做侧不同图片，暂做方形处理*/
+  display: inline-block;
+  width:12px;
+  height: 6px;
+  background: red;
+}
+
+.image-right{
+  display: inline-block;
+  width: 12px;
+  height: 6px;
+  background-color: black;
+  overflow: hidden;
+}
+.indexpage-menu-block{
+  padding:0 6px;
+}
+
+.indexpage-menu-block a{
+  display: inline-block;
+  margin-right: 7px;
+  line-height: 34px;
+}
+
+
+.indexpage-menu-list-dl dd{
+  line-height: 28px;
+}
+
+.indexpage-menu-list{
+  display: none;
+  z-index: 4;
+  position: absolute;
+  border:1px solid #eee;
+  padding:8px 6px;
+}
+
+
+.indexpage-mytaobao:hover .indexpage-menu-list{
+  display: block;
 }
