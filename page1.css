@@ -60,7 +60,7 @@ a:hover{
   display: inline-block;
   width:12px;
   height: 6px;
-  background: red;
+  background: #6c6c6c;
 }
 
 .image-right{
@@ -69,6 +69,11 @@ a:hover{
   height: 6px;
   background-color: black;
   overflow: hidden;
+}
+
+.indexpage-fenge{
+  color: #ddd;
+  padding:0 5px;
 }
 .indexpage-menu-block{
   padding:0 6px;
@@ -83,6 +88,8 @@ a:hover{
 
 .indexpage-menu-list-dl dd{
   line-height: 28px;
+  padding: 0 6px;
+  color: #6c6c6c;
 }
 
 .indexpage-menu-list{
@@ -90,10 +97,27 @@ a:hover{
   z-index: 4;
   position: absolute;
   border:1px solid #eee;
-  padding:8px 6px;
+  padding:8px 0;
 }
 
 
+.indexpage-menu-block:hover{
+  background-color: white;
+}
+
+.indexpage-menu-list-dl dd:hover{
+  background-color: #f5f5f5;
+}
+
 .indexpage-mytaobao:hover .indexpage-menu-list{
+  display: block;
+}
+.indexpage-salescenter:hover .indexpage-menu-list{
+  display: block;
+}
+.indexpage-shoucang:hover .indexpage-menu-list{
+  display: block;
+}
+.indexpage-account:hover .indexpage-menu-list{
   display: block;
 }
