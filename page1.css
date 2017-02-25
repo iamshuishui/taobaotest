@@ -10,7 +10,7 @@ a{
   color:#6c6c6c;
 }
 
-li{
+.indexpage-menu ul li{
   list-style-type: none;
   line-height: 34px;
 }
@@ -120,4 +120,20 @@ a:hover{
 }
 .indexpage-account:hover .indexpage-menu-list{
   display: block;
+}
+
+.indexpage-searcharea-top{
+  height: 32px;
+}
+.indexpage-searcharea-main a{
+  float:left;
+}
+.indexpage-searcharea-main-logo{
+  display:block;
+  width:140px;
+  height:60px;
+}
+.indexpage-searcharea-main-logo img{
+  width:140px;
+  height: 60px;
 }
